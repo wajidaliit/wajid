@@ -1,0 +1,331 @@
+/* Start universal Section  */
+
+:root{
+    --colorred:#FF0000;
+    --colorwhite:#FFFFFF;
+}
+/*Start Google Font  */
+
+/* {
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+} */
+.latofont{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.catamaronFont{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
+}
+.catamaronFont16px{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+}
+.openSansFont{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+}
+
+
+/*End Google Font  */
+
+/* End universal Section  */
+
+
+/* Start Navbar */
+
+.navbar{
+    background-color: #0c1239;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+}
+.navbar-brand{
+   padding: 8px 40px; 
+}
+ul .navbar-nav{
+    padding-left: 4em;
+}
+.navbarText{
+  /* margin-left: 5em; */
+}
+
+.side-bar ul li {
+    list-style-type: none;
+
+}
+.nav-item{
+    padding-left: 10px;
+}
+.side-nav{
+    margin-left: 5em;
+}
+.container{
+    background-color: red;
+    
+}
+
+/*Start slider area  */
+/*End slider area  */
+
+/* start Contact Area  */
+
+
+.contact-area {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-area.mb-85 {
+    bottom: 85px;
+}
+
+.contact-area .contact-content {
+    background: red;
+    border-radius: 5px;
+    padding: 50px 30px 20px;
+}
+.contact-area .contact-content .contact-card{
+    padding-left: 55px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.contact-area .contact-content .contact-card i {
+    background: #ffffff;
+    color: red;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.contact-area .contact-content .contact-card i:hover {
+    background: #ffffff;
+    color: red;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.contact-area .contact-content .contact-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.contact-area .contact-content .contact-card p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.contact-area .contact-content .contact-card p a {
+    color: #ffffff;
+}
+
+
+
+/* End Contact Area  */
+
+/* start team/people section  */
+
+.container-team {
+  position: relative;
+ 
+}
+
+.image-team {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-team {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 12px;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF0000;
+}
+
+.container-team:hover .overlay-team {
+  opacity: 1;
+}
+
+.text-team {
+  color: white;
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: 'Catamaran', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.icon_Class ul li{
+  display: inline-block;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.icon_Class ul li a{
+margin-right: 8px;
+}
+/* end team/people section  */
+
+/*start Price Section  */
+.cardshadow{
+  box-shadow: 2px 4px 4px 0px wheat, -2px -4px 4px 0px wheat;
+  transform: scale();
+}
+.catamaronprice{
+    font-family: 'Catamaran', sans-serif;
+}
+.checkcolor{
+    color: #FF0000;
+}
+.but-hover{
+    transition: all .03s;
+    width: 11em;
+}
+.but-hover:hover{
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+.bi-arrow-right{
+    color: black;
+}
+.but-hover-endCard{
+    border-radius: 0px 0px 20px 0px;
+    width: 11em;
+    color: #FFFFFF;
+}
+.but-hover-endCard:hover{
+   background-color: #FFFFFF;
+   transition: all .03s;
+   
+}
+.fontcolor{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 13px;
+}
+.checkcolorEnd{
+    color: #FFFFFF;
+}
+
+
+
+/* End price section  */
+
+/* start Good Section  */
+/* End Good Section  */
+
+
+
+/* Start Blogs Section  */
+.readmore:hover{
+  text-decoration:underline;
+  text-decoration-color: red;
+}
+/*End Blogs Section  */
+
+/*start Company Section  */
+
+.latofont-team{
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.teamCarousel{
+    width: 160px;
+    height: 100px;
+}
+.rowMarginPadding{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+
+/*end Company Section  */
+
+/* Start Footer section  */
+.footer{
+    background-color:#0c1239;
+}
+
+/* End Footer section  */
+/* Strat Term section   */
+
+ .term a{
+    text-decoration: none;
+    
+ }
+ 
+/* End Term section   */
+
+/* start copyright section  */
+
+
+
+/* end copyright section  */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+ .card_outerClass{
+    width: 100%;
+ }
+ .ulNavebar{
+  padding-left: 11em;
+ }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .card_outerClass{
+        width: 100%;
+     }
+ 
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 844px) { 
+  .contact-area {
+    position: relative;
+    
+}
+
+.contact-area.mb-85 {
+    bottom: 0px;
+}
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
